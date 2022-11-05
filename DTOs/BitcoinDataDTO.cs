@@ -1,12 +1,12 @@
 ﻿namespace BlazorBitcoinApp.DTOs
 {
-    public class BitcoinDataDTO_
+    public class BitcoinDataDTO
     {
-        public BitcoinDataDTO_()
+        public BitcoinDataDTO()
         {
 
         }
-        public BitcoinDataDTO_(DateTime day, decimal closeValue)
+        public BitcoinDataDTO(DateTime day, decimal closeValue)
         {
             Day = day;
             CloseValue = closeValue;
