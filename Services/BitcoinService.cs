@@ -4,7 +4,7 @@ using Newtonsoft.Json.Linq;
 
 namespace BlazorBitcoinApp.Services
 {
-    public class BitcoinService
+    public class BitcoinService : IBitcoinService
     {
         private readonly HttpClient _httpClient;
 
